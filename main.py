@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 
 # Load a sample 2D image
-image_path = 'Bgrem_drawing.png'  # Replace with the actual path to your image
+image_path = '2d_Avatar.png'  # Replace with the actual path to your image
 image_data = np.array(Image.open(image_path).convert('L'))  # Convert to grayscale if needed
 
 # Create a meshgrid for 3D plot
